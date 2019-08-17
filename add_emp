@@ -1,0 +1,8 @@
+
+
+
+def add_emp_csv():
+    colnames = ['ID', 'Name', 'Phone', 'Age']
+    dfcsv = pd.read_csv('/Users/sapir/Documents/python/final project- employee attandance log/emloyeescsv.csv',
+                        names=colnames, header=None)
+    return dfcsv
